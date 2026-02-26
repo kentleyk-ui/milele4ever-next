@@ -63,3 +63,11 @@ export default function Home() {
     </div>
   );
 }
+export default function Home() {
+  return (
+    <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100">
+      <h1 className="text-4xl font-bold text-blue-600">Bienvenue sur Milele4Ever !</h1>
+      <p className="mt-4 text-lg text-gray-700">Découvrez nos souvenirs éternels – optimisé pour tous les appareils.</p>
+    </div>
+  );
+}
